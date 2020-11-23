@@ -15,6 +15,10 @@
 		09F74634256BA225005FA237 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F74609256BA223005FA237 /* ContentView.swift */; };
 		09F74635256BA225005FA237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F7460A256BA224005FA237 /* Assets.xcassets */; };
 		09F74636256BA225005FA237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F7460A256BA224005FA237 /* Assets.xcassets */; };
+		09F7464A256BA55F005FA237 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F74649256BA55F005FA237 /* Cards.swift */; };
+		09F7464B256BA55F005FA237 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F74649256BA55F005FA237 /* Cards.swift */; };
+		09F74651256BA861005FA237 /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F74650256BA861005FA237 /* BottomCard.swift */; };
+		09F74652256BA861005FA237 /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F74650256BA861005FA237 /* BottomCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		09F7462A256BA224005FA237 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F7462E256BA224005FA237 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		09F74630256BA225005FA237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F74649256BA55F005FA237 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		09F74650256BA861005FA237 /* BottomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 			children = (
 				09F74608256BA223005FA237 /* SendMoneyApp.swift */,
 				09F74609256BA223005FA237 /* ContentView.swift */,
+				09F74650256BA861005FA237 /* BottomCard.swift */,
+				09F74649256BA55F005FA237 /* Cards.swift */,
 				09F7460A256BA224005FA237 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,7 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F7464A256BA55F005FA237 /* Cards.swift in Sources */,
 				09F74633256BA225005FA237 /* ContentView.swift in Sources */,
+				09F74651256BA861005FA237 /* BottomCard.swift in Sources */,
 				09F74631256BA225005FA237 /* SendMoneyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F7464B256BA55F005FA237 /* Cards.swift in Sources */,
 				09F74634256BA225005FA237 /* ContentView.swift in Sources */,
+				09F74652256BA861005FA237 /* BottomCard.swift in Sources */,
 				09F74632256BA225005FA237 /* SendMoneyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
